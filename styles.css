@@ -1,1 +1,68 @@
 /*  your css code here. If applicable */
+ body {
+            font-family: system-ui, 'Segoe UI', 'Helvetica Neue', sans-serif;
+            background: #f4f7fc;
+            margin: 0;
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .card {
+            background: white;
+            border-radius: 24px;
+            box-shadow: 0 20px 35px -12px rgba(0, 0, 0, 0.1);
+            padding: 2rem 2.5rem;
+            text-align: center;
+            width: 320px;
+            transition: all 0.2s ease;
+        }
+
+        h2 {
+            margin-top: 0;
+            margin-bottom: 1.2rem;
+            font-weight: 600;
+            font-size: 1.8rem;
+            color: #1e2a3e;
+            letter-spacing: -0.3px;
+        }
+
+        .counter-value {
+            font-size: 4rem;
+            font-weight: 700;
+            margin: 1rem 0;
+            background: #eef2ff;
+            border-radius: 40px;
+            padding: 0.5rem 1rem;
+            display: inline-block;
+            min-width: 120px;
+            color: #0f2b3d;
+            font-family: 'Courier New', monospace;
+            box-shadow: inset 0 1px 4px rgba(0,0,0,0.02), 0 2px 6px rgba(0,0,0,0.05);
+        }
+
+        button {
+            background: #2c6e9e;
+            border: none;
+            color: white;
+            font-size: 1.2rem;
+            font-weight: 600;
+            padding: 0.75rem 1.8rem;
+            border-radius: 60px;
+            cursor: pointer;
+            margin-top: 1.2rem;
+            transition: background 0.2s, transform 0.1s;
+            box-shadow: 0 6px 14px rgba(44, 110, 158, 0.25);
+            letter-spacing: 0.3px;
+        }
+
+        button:hover {
+            background: #1f567d;
+            transform: scale(1.02);
+        }
+
+        button:active {
+            transform: scale(0.98);
+            background: #174a6b;
+        }
